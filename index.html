@@ -36,8 +36,9 @@
                     <button class='nav-btn col-3' href="">Consommable</button>
                 </div>
                 <div class="item-display row d-flex justify-content-around h-100">
-                    <ul class="item-display-lists">
+                    <ul class="item-display-lists row d-flex justify-content-evenly flex-wrap">
                         <!-- Item Display -->
+
                     </ul>
                 </div>
             </div>
@@ -53,6 +54,17 @@
             </p>
         </section>
     </footer>
+
+    <!-- TEMPLATES -->
+
+    <!-- ITEM TEMPLATE -->
+
+    <template id='item-template'>
+        <li class='item-container col-2 d-flex flex-column justify-content-between'>
+            <img class='item-img' src="" alt="">
+            <p class="col-12 item-name"></p>
+        </li>
+    </template>
 
     <script src="assets/scripts/main.js" async defer></script>
 </body>

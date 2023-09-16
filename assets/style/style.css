@@ -233,4 +233,25 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
     border: solid 1px grey;
+    overflow-y: scroll ;
+}
+
+.item-container {
+    padding: 6px;
+    background-color: var(--nav-footer-color);
+    margin: 4px;
+    border: solid 1px grey;
+    border-radius: 4px;
+
+}
+
+.item-name {
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.item-img {
+    
 }
