@@ -8,15 +8,51 @@
     <title>DracoStore - Management</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="assets/scripts/script.js" async defer></script>
+    <header class="container-fluid d-flex justify-content-center">
+        <section class="row d-flex justify-content-around">
+            <div class="offset-1 col-2 h-100">
+                <p>DracoStore</p>
+            </div>
+            <nav class="offset-1 col-7 h-100">
+                <!-- Nav -->
+            </nav>
+        </section>
+    </header>
+
+    <main class='container-fluid d-flex justify-content-center w-100'>
+        <section class="main-section row d-flex justify-content-between">
+            <div class="item-display-container col-6 d-flex flex-column justify-content-between align-items-center">
+                <!-- Item Display -->
+                <div class="item-nav row d-flex justify-content-around">
+                    <button class='item-nav-btn col-3 ' href="">Weapons</button>
+                    <button class='item-nav-btn col-3' href="">Armors</button>
+                    <button class='item-nav-btn col-3' href="">Consommable</button>
+                </div>
+                <div class="item-display row d-flex justify-content-around h-100">
+                    <ul class="item-display-lists">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="offset-2 col-4 order-display-container ">
+                <!-- Order Display -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid ">
+        <section class="row h-100 d-flex justify-content-center align-items-center">
+            <p class='text-center h-50'> Copyright 2023 - Maignan Brice
+            </p>
+        </section>
+    </footer>
+
+    <script src="assets/scripts/main.js" async defer></script>
 </body>
 
 </html>
