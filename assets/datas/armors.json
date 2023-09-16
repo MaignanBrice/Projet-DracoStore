@@ -1,59 +1,121 @@
-{
-    "helmet": {
+[
+    {
         "id": 1,
         "name": "Helmet",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "armor": {
+    {
         "id": 2,
         "name": "Chest Armor",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "throusers": {
+    {
         "id": 3,
         "name": "Throusers",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "gloves": {
+    {
         "id": 4,
         "name": "Gloves",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "boots": {
+    {
         "id": 5,
         "name": "Boots",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "necklace": {
+    {
         "id": 6,
         "name": "Necklace",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "ring": {
+    {
         "id": 7,
         "name": "Ring",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "earring": {
+    {
         "id": 8,
-        "name": "earring",
+        "name": "Earrings",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-
-}
+    {
+        "id": 6,
+        "name": "Necklace",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 7,
+        "name": "Ring",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 8,
+        "name": "Earrings",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 6,
+        "name": "Necklace",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 7,
+        "name": "Ring",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 8,
+        "name": "Earrings",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 6,
+        "name": "Necklace",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 7,
+        "name": "Ring",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    },
+    {
+        "id": 8,
+        "name": "Earrings",
+        "unitPrice": 1,
+        "stockQty": 1,
+        "img": ""
+    }
+]

@@ -180,7 +180,6 @@ footer {
 
 main {
     height: 86vh !important;
-    background-color: lightcoral;
     width: 100%;
 }
 
@@ -191,14 +190,13 @@ main {
 }
 
 .item-display-container {
-    background-color: lightgreen;
     height: auto;
     padding: 10px;
 }
 
 .order-display-container {
     background-color: lightblue;
-    height: inherit;  
+    height: inherit;
     padding: 10px;
 }
 
@@ -233,7 +231,7 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
     border: solid 1px grey;
-    overflow-y: scroll ;
+    overflow-y: scroll;
 }
 
 .item-container {
@@ -242,7 +240,7 @@ main {
     margin: 4px;
     border: solid 1px grey;
     border-radius: 4px;
-
+    height: 30%;
 }
 
 .item-name {
@@ -252,6 +250,4 @@ main {
     text-align: center;
 }
 
-.item-img {
-    
-}
+.item-img {}

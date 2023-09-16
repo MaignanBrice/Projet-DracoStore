@@ -1,44 +1,44 @@
-{
-    "potion": {
+[
+    {
         "id": 1,
         "name": "Potion x5",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "elixir": {
-        "id": 1,
+    {
+        "id": 2,
         "name": "Elixir x5",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "bandages": {
-        "id": 1,
+    {
+        "id": 3,
         "name": "Bandages",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "antifire": {
-        "id": 1,
+    {
+        "id": 4,
         "name": "Anti Fire Potion",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "antipoison": {
-        "id": 1,
+    {
+        "id": 5,
         "name": "Anti Poison Potion",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
     },
-    "poison": {
-        "id": 1,
+    {
+        "id": 6,
         "name": "Poison",
         "unitPrice": 1,
         "stockQty": 1,
         "img": ""
-    },
-}
+    }
+]
