@@ -150,6 +150,7 @@ table {
 
 body {
     background-color: var(--main-bg-color);
+    font-family: 'Noto-Sans-Reg';
 }
 
 
@@ -159,12 +160,22 @@ header {
     background-color: var(--nav-footer-color);
 }
 
+.main-title {
+    font-size: 50px;
+    color: var(--secondary-color);
+    font-family: 'Noto-Sans-Reg';
+    padding: 5px;
+    width: fit-content;
+    height: inherit;
+}
+
 footer {
     height: 4vh !important;
     width: 100%;
     background-color: var(--nav-footer-color);
     position: fixed;
     bottom: 0;
+    color: white;
 }
 
 main {
@@ -198,7 +209,7 @@ main {
     border-radius: 4px;
 }
 
-.item-nav-btn {
+.nav-btn {
     background-color: var(--secondary-color);
     border: solid 1px black;
     border-radius: 5px;
@@ -206,6 +217,8 @@ main {
     width: fit-content;
     box-shadow: 2px 2px 2px black;
     margin: 5px;
+    color: black;
+    text-decoration: none;
 }
 
 .item-display {

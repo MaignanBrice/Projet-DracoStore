@@ -13,13 +13,15 @@
 </head>
 
 <body>
-    <header class="container-fluid d-flex justify-content-center">
-        <section class="row d-flex justify-content-around">
-            <div class="offset-1 col-2 h-100">
-                <p>DracoStore</p>
+    <header class="container-fluid">
+        <section class="row d-flex justify-content-around align-items-center h-100 w-100">
+            <div class="offset-1 col-4 h-100">
+                <p class="main-title">DracoStore</p>
             </div>
-            <nav class="offset-1 col-7 h-100">
-                <!-- Nav -->
+            <nav class="offset-1 col-6 h-100 d-flex justify-content-around align-items-center">
+                <a class="nav-btn col-3" href="">Commande</a>
+                <a class="nav-btn col-3" href="">Stock</a>
+                <a class="nav-btn col-3" href="">Configuration</a>
             </nav>
         </section>
     </header>
@@ -27,20 +29,20 @@
     <main class='container-fluid d-flex justify-content-center w-100'>
         <section class="main-section row d-flex justify-content-between">
             <div class="item-display-container col-6 d-flex flex-column justify-content-between align-items-center">
-                <!-- Item Display -->
+                <!-- Item Section -->
                 <div class="item-nav row d-flex justify-content-around">
-                    <button class='item-nav-btn col-3 ' href="">Weapons</button>
-                    <button class='item-nav-btn col-3' href="">Armors</button>
-                    <button class='item-nav-btn col-3' href="">Consommable</button>
+                    <button class='nav-btn col-3 ' href="">Weapons</button>
+                    <button class='nav-btn col-3' href="">Armors</button>
+                    <button class='nav-btn col-3' href="">Consommable</button>
                 </div>
                 <div class="item-display row d-flex justify-content-around h-100">
                     <ul class="item-display-lists">
-
+                        <!-- Item Display -->
                     </ul>
                 </div>
             </div>
             <div class="offset-2 col-4 order-display-container ">
-                <!-- Order Display -->
+                <!-- Order Section -->
             </div>
         </section>
     </main>
