@@ -186,7 +186,7 @@ main {
 .main-section {
     height: 100%;
     width: 100%;
-    background-color: lightseagreen;
+    background-color: #999999;
 }
 
 .item-display-container {
@@ -251,6 +251,10 @@ main {
     height: 50%;
 }
 
+.item-qty-span {
+    color: white;
+    margin: 4px;
+}
 
 .order-display-container {
     height: inherit;
@@ -307,35 +311,37 @@ main {
     height: 30px;
 }
 
-.price-container{
+.price-container {
     border-left: solid 1px grey;
     border-right: solid 1px grey;
     padding: 5px
 }
 
-.order-item-plusbtn{
+.order-item-plusbtn,
+.item-plusbtn {
     background-image: url(/assets/img/plus.png);
     background-position: center;
     background-size: cover;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border: none;
 }
 
 
-.order-item-minusbtn {
+.order-item-minusbtn,
+.item-minusbtn {
     background-image: url(/assets/img/minus.png);
     background-position: center;
     background-size: cover;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border: none;
 }
 
 
-.order-item-currency{
+.order-item-currency {
     width: 30px;
     height: 25px;
 }

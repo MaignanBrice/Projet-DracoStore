@@ -75,17 +75,22 @@
     <template id='item-template'>
         <li class='item-container col-2 d-flex flex-column justify-content-between' data-item-id=''>
             <img class='item-img' src="" alt="">
+            <div class="item-qty-container d-flex justify-content-center align-items-center">
+                <button class='item-minusbtn'></button>
+                <p class="item-qty"><span class="item-qty-span">1</span></p>
+                <button class='item-plusbtn'></button>
+            </div>
             <p class="col-12 item-name"></p>
         </li>
     </template>
 
     <template id="item-order-template">
-        <li class='order-item-container col-12 d-flex justify-content-between align-items-center' data-item-order-id = ''>
+        <li class='order-item-container col-12 d-flex justify-content-between align-items-center' data-item-order-id=''>
             <img class='order-item-img' src="" alt="">
             <p class="order-item-name"></p>
-            <button class='order-item-plusbtn'></button>
-            <p class="order-item-qty"><span class="order-item-qty-span"></span></p>
             <button class='order-item-minusbtn'></button>
+            <p class="order-item-qty"><span class="order-item-qty-span"></span></p>
+            <button class='order-item-plusbtn'></button>
             <div class="price-container d-flex flex-row justify-content-between align-items-center">
                 <p class="order-item-price"><span class="order-item-price"></span></p>
                 <img class='order-item-currency' src="/assets/img/gold-coin.png" alt="">

@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Sword",
         "unitPrice": 5,
         "stockQty": 1,
@@ -28,42 +28,42 @@
         "img": ""
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Mace",
         "unitPrice": 1,
         "stockQty": 30,
         "img": ""
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Double Axe",
         "unitPrice": 16,
         "stockQty": 2,
         "img": ""
     },
     {
-        "id": 5,
+        "id": 7,
         "name": "Staff",
         "unitPrice": 8,
         "stockQty": 3,
         "img": ""
     },
     {
-        "id": 6,
+        "id": 8,
         "name": "Healing Staff",
         "unitPrice": 4,
         "stockQty": 3,
         "img": ""
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Bow",
         "unitPrice": 22,
         "stockQty": 5,
         "img": ""
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Arrow",
         "unitPrice": 18,
         "stockQty": 3,
