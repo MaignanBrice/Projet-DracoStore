@@ -1,8 +1,10 @@
 import * as main from "./main.js"
 
 
+// Return a new object to push in order array.
+
 export function createOrderEntry(object, quantity) {
-    if (object.stockQty >= quantity) {
+    if (object.stockQty >= parseInt(quantity)) {
         let item = {
             id: object.id,
             name: object.name,
@@ -14,14 +16,19 @@ export function createOrderEntry(object, quantity) {
     };
 };
 
+// Get an object by his ID
 
-export function getObjectById(array, id){
-    parseInt(id);
+export function getObjectById(array, id) {
+    let object;
+    parseInt(id)
     array.map(item => {
-        if(parseInt(item.id) !== id) return;
-        return item;
+        if (parseInt(item.id) !== id) return null;
+        object = item;
     });
+    return object;
 };
+
+
 
 
 

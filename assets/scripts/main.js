@@ -9,23 +9,24 @@ let armorsStock = JSON.parse(localStorage.getItem('armorstock'));
 let consStock = JSON.parse(localStorage.getItem('consstock'))
 
 
-let order = [];
+let order = []; // Order array
 
-/* Displaying */
 
 
 /* Listeners */
 
+/* ------------------Displaying */
+
 document.querySelector('#nav-weapon').addEventListener('click', event => {
-    if(document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay(); 
+    if (document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay();
     display.createItem(weaponsStock);
 });
 document.querySelector('#nav-armor').addEventListener('click', event => {
-    if(document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay(); 
+    if (document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay();
     display.createItem(armorsStock);
 });
 document.querySelector('#nav-cons').addEventListener('click', event => {
-    if(document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay(); 
+    if (document.querySelectorAll('.item-container').length > 0) display.clearItemDisplay();
     display.createItem(consStock);
 });
 
