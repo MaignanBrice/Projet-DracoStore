@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Sword",
-        "unitPrice": 1,
+        "unitPrice": 5,
         "stockQty": 1,
         "img": ""
     },

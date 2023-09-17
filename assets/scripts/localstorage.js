@@ -41,6 +41,3 @@ fetchWeaponStock().then(datas => {
 fetchConsStock().then(datas => {
     localStorage.setItem('consstock', JSON.stringify(datas));
 });
-
-
-

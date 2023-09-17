@@ -194,11 +194,6 @@ main {
     padding: 10px;
 }
 
-.order-display-container {
-    background-color: lightblue;
-    height: inherit;
-    padding: 10px;
-}
 
 .item-nav {
     width: 100%;
@@ -250,4 +245,102 @@ main {
     text-align: center;
 }
 
-.item-img {}
+.item-img {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+}
+
+
+.order-display-container {
+    height: inherit;
+    padding: 10px;
+}
+
+
+.order-title-container {
+    height: fit-content;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.order-item-display {
+    width: 100%;
+    margin: 5px;
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+    padding: 5px;
+    height: 70%;
+}
+
+.item-order-lists {
+    border: solid 1px grey;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+.order-summary {
+    height: 20%;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.order-item-container {
+    height: 10%;
+    width: 100%;
+    background-color: var(--nav-footer-color);
+    border: solid 1px grey;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+}
+
+.order-item-img {
+    width: 30px;
+    height: 30px;
+}
+
+.price-container{
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    padding: 5px
+}
+
+.order-item-plusbtn{
+    background-image: url(/assets/img/plus.png);
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.order-item-minusbtn {
+    background-image: url(/assets/img/minus.png);
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.order-item-currency{
+    width: 30px;
+    height: 25px;
+}
+
+.order-item-trash {
+    width: 25px;
+    height: 25px;
+}

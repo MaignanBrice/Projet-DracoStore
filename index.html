@@ -43,8 +43,20 @@
                     </ul>
                 </div>
             </div>
-            <div class="offset-2 col-4 order-display-container ">
+            <div class="order-display-container offset-2 col-4 d-flex flex-column  align-items-center ">
                 <!-- Order Section -->
+                <div class="order-title-container row d-flex justify-content-around">
+                    <h2 class='nav-btn'> Order summary</h2>
+                </div>
+                <div class="order-item-display row d-flex justify-content-around">
+                    <ul class='item-order-lists row d-flex flex-column flex-nowrap h-100'>
+                        <!-- Order Display -->
+
+                    </ul>
+                </div>
+                <div class="order-summary row">
+
+                </div>
             </div>
         </section>
     </main>
@@ -67,7 +79,22 @@
         </li>
     </template>
 
-    <script type="module" src="assets/scripts/fetching.js" async defer></script>
+    <template id="item-order-template">
+        <li class='order-item-container col-12 d-flex justify-content-between align-items-center' data-item-order-id = ''>
+            <img class='order-item-img' src="" alt="">
+            <p class="order-item-name"></p>
+            <button class='order-item-plusbtn'></button>
+            <p class="order-item-qty"><span class="order-item-qty-span"></span></p>
+            <button class='order-item-minusbtn'></button>
+            <div class="price-container d-flex flex-row justify-content-between align-items-center">
+                <p class="order-item-price"><span class="order-item-price"></span></p>
+                <img class='order-item-currency' src="/assets/img/gold-coin.png" alt="">
+            </div>
+            <img class='order-item-trash' src="/assets/img/trash-can-outline.svg" alt="">
+        </li>
+    </template>
+
+    <script type="module" src="assets/scripts/localstorage.js" async defer></script>
     <script type="module" src="assets/scripts/main.js" async defer></script>
 </body>
 
