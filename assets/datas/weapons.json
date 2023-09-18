@@ -1,72 +1,82 @@
 [
     {
-        "id": 1,
+        "id": 24,
         "name": "Sword",
         "unitPrice": 5,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 2,
+        "id": 25,
         "name": "Dagger",
         "unitPrice": 3,
         "stockQty": 6,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 3,
+        "id": 26,
         "name": "Warhammer",
         "unitPrice": 12,
         "stockQty": 2,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 4,
+        "id": 27,
         "name": "Greatsword",
         "unitPrice": 1,
         "stockQty": 30,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 5,
+        "id": 28,
         "name": "Mace",
         "unitPrice": 1,
-        "stockQty": 30,
+        "stockQty": 5,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 6,
+        "id": 29,
         "name": "Double Axe",
         "unitPrice": 16,
         "stockQty": 2,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 7,
+        "id": 30,
         "name": "Staff",
         "unitPrice": 8,
         "stockQty": 3,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 8,
+        "id": 31,
         "name": "Healing Staff",
         "unitPrice": 4,
         "stockQty": 3,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 9,
+        "id": 32,
         "name": "Bow",
         "unitPrice": 22,
         "stockQty": 5,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 10,
+        "id": 33,
         "name": "Arrow",
         "unitPrice": 18,
         "stockQty": 3,
+        "orderQty": 1,
         "img": ""
     }
 ]

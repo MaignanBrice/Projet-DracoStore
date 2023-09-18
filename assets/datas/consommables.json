@@ -1,44 +1,50 @@
 [
     {
-        "id": 1,
+        "id": 18,
         "name": "Potion x5",
         "unitPrice": 1,
-        "stockQty": 1,
+        "stockQty": 5,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 2,
+        "id": 19,
         "name": "Elixir x5",
         "unitPrice": 1,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 3,
+        "id": 20,
         "name": "Bandages",
         "unitPrice": 1,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 4,
+        "id": 21,
         "name": "Anti Fire Potion",
         "unitPrice": 1,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 5,
+        "id": 22,
         "name": "Anti Poison Potion",
         "unitPrice": 1,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     },
     {
-        "id": 6,
+        "id": 23,
         "name": "Poison",
         "unitPrice": 1,
         "stockQty": 1,
+        "orderQty": 1,
         "img": ""
     }
 ]
